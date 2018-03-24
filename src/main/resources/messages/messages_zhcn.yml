@@ -1,7 +1,7 @@
-# List of global tags:
-# %nl% - Goes to new line.
-# %username% - Replaces the username of the player receiving the message.
-# %displayname% - Replaces the nickname (and colors) of the player receiving the message.
+# 全局变量:
+# %nl% - 换行.
+# %username% - 玩家用户名(不包含称号).
+# %displayname% - 玩家游戏名(包含称号).
 
 # Registration
 registration:
@@ -79,7 +79,7 @@ on_join_validation:
     country_banned: '这个服务器禁止该国家登陆'
     not_owner_error: '&8[&6玩家系统&8] &4警告！ &c你并不是此帐户持有人，请立即登出。 '
     invalid_name_case: '&8[&6玩家系统&8] &c你应该使用「%valid」而并非「%invalid」登入游戏。 '
-    # TODO quick_command: 'You used a command too fast! Please, join the server again and wait more before using any command.'
+    quick_command: '&8[&6玩家系统&8] 你输入指令太快了，请重新进入游戏！'
 
 # Email
 email:
